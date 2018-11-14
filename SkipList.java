@@ -316,10 +316,10 @@ public class SkipList<T extends Comparable<? super T>> {
 	// Main Function.
 	public static void main(String[] args) {
 		SkipList<Integer> my_list = new SkipList<>();
-    	my_list.add(1);
-    	my_list.add(2);
-    	my_list.add(4);
-    	my_list.add(2);
-    	System.out.println(my_list.size());
+		my_list.add(1);
+		my_list.add(2);
+		my_list.add(4);
+		my_list.add(2);
+		System.out.println(my_list.size());
 	}
 }
